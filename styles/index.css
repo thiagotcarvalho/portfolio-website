@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Cascadia Code', sans-serif;
+}
+a {color: black;}
+
+.middle {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.top-left {
+    left: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+.no-style {text-decoration: none !important;}
+.title {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.description {
+    font-size: 28px;
+    margin: 10px 0;
+}
+.social-icons {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+
+@namespace svg url(http://www.w3.org/2000/svg);
+/* Necessary to select only SVG elements, and not also HTML's */
+svg {
+    fill: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: fill 0.25s;
+}
+svg:hover {fill: #90917e;}
