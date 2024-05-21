@@ -1,2 +1,2 @@
 # Portfolio Website
-Source files for personal/portfolio website
+Source files for personal website.
