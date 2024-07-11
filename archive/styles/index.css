@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body {
     background-color: white;
     color: black;
-    font-family: 'Cascadia Code', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 a {color: black;}
-
 .middle {
     left: 50%;
     position: absolute;
@@ -21,10 +20,13 @@ a {color: black;}
     position: absolute;
     top: 25px;
 }
-
 .no-style {text-decoration: none !important;}
 .title {
-    font-size: 60px;
+    cursor: default;
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -2px;
     margin: 10px 0;
 }
 .description {
@@ -32,7 +34,7 @@ a {color: black;}
     margin: 10px 0;
 }
 .social-icons {
-    font-size: 26px;
+    font-size: 28px;
     margin: 30px 0;
 }
 
