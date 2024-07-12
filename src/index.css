@@ -9,9 +9,11 @@
   body {
     @apply bg-white text-black font-openSans;
   }
+
   h1 {
     @apply font-bold text-6xl;
   }
+
   p {
     @apply font-medium text-base;
   }
