@@ -6,17 +6,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @layer base {
-  body {
-    @apply bg-white text-black font-openSans;
+  body {@apply bg-white text-black font-openSans;}
+
+  h1 {@apply font-bold text-6xl;}
+
+  p {@apply font-medium text-base;}
+
+  a {display: inline-block;}
+
+  svg {
+    fill: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: fill 0.25s;
   }
 
-  h1 {
-    @apply font-bold text-6xl;
-  }
-
-  p {
-    @apply font-medium text-base;
-  }
+  svg:hover {fill: #90917e;}
 }
 
 .HomePage-container {
