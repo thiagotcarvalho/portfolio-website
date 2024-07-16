@@ -12,16 +12,11 @@
 
   p {@apply font-medium text-base;}
 
-  a {display: inline-block;}
-
   svg {
-    fill: black;
-    padding-left: 8px;
-    padding-right: 8px;
+    @apply inline-block px-2 fill-black;
     transition: fill 0.25s;
   }
-
-  svg:hover {fill: #90917e;}
+  svg:hover {@apply fill-green-800;}
 }
 
 .HomePage-container {
@@ -36,5 +31,5 @@
 .HomePage-title {
   cursor: default;
   letter-spacing: -2px;
-  margin: 10px 0;
+  margin-top: 10px;
 }
